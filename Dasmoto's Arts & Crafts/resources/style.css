@@ -1,3 +1,13 @@
+html {
+	font-family: gabriola !important;
+}
+
+body {
+	Background-color: gray;
+	text-align: center;
+}
+
+
 h1 {
   text-align: center;
   color: khaki;
@@ -7,44 +17,29 @@ h1 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
 }
 
-#brushes {
+h2 {
   background-color: mediumspringgreen;
   font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
   color: white;
+	transform: scale(0.4);
+  margin: 0 auto;
+  display: block;
+  margin-top: -10px;
+  margin-bottom: -25px;
 }
 
-.price1{
+.price{
   font-family: Helvetica;
   font-weight: bold;
   color: blue;
 }
 
-#frames{
-  background-color: lightcoral;
-  font-family: Helvetica;
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
+.frame{
+	background-color: lightcoral !important;
 }
 
-.price2{
-  font-family: Helvetica;
-  font-weight: bold;
-  color: blue;
-}
-
-#paint{
-  background-color: skyblue;
-  font-family: Helvetica;
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
-}
-
-.price3{
-  font-family: Helvetica;
-  font-weight: bold;
-  color: blue;
+.paint{
+	background-color: skyblue !important;
 }
